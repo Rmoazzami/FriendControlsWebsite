@@ -111,3 +111,8 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+# Ensure AASA files and .well-known folder are published
+include:
+  - ".well-known"
+  - "apple-app-site-association"
